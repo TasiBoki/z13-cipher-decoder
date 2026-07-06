@@ -1,3 +1,4 @@
+![Z13 Decoder Console Output](z13.9.jpg)
 REVERSE-ENGINEERING REPORT: Z13 PAYLOAD ANALYSIS
 System Programmer’s Log & Execution Matrix
 0. Software Specification & Operational Logic
