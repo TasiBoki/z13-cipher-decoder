@@ -1,6 +1,8 @@
 Note for Cryptographers & Researchers (including David Oranchak / Case Breakers):
 This programmatic approach was designed to test high-profile suspect matrices using low-entropy residual analysis on the Z13 cipher. It is explicitly structured to complement automated testing environments like AZdecrypt. Feel free to clone, test with your own matrices (e.g., Poste, Gaikowski), or open an Issue for discussions.
+
 ![Z13 Decoder Console Output](z13.9.jpg)
+
 REVERSE-ENGINEERING REPORT: Z13 PAYLOAD ANALYSIS
 System Programmer’s Log & Execution Matrix
 0. Software Specification & Operational Logic
