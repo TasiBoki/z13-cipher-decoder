@@ -102,3 +102,9 @@ System Log Entry: The mathematical elegance of these infinite pointer loops and 
 ### Documentation
 * [Methodology & Architecture](./METHODOLOGY.md)
 * [Citations & Technical Context](./CITATIONS.md)
+
+## Analysis Findings
+For a detailed breakdown of the engine's performance and the top-ranked decodings, please refer to the results archive:
+- [View Top Decoded Patterns & Statistics](./RESULTS.md)
+
+*Note: Results are generated based on polymorphic frequency analysis against high-profile suspect matrices.*
