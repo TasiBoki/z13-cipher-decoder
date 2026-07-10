@@ -98,3 +98,7 @@ The Z13 payload does not compile into a single static string. It is a Polymorphi
 While the system handles these multi-threaded background profiles simultaneously, the primary console output (Stdout) remains forced to a single, persistent string: RIDE A STATE DIRT.
 System Log Entry: The mathematical elegance of these infinite pointer loops and the bitmasking efficiency strongly implies that the author wrote this code using mental models derived from low-level military radio-frequency multiplexing and naval cryptographic systems—a perfect match for the Lawrence Kane hardware profile.
 
+---
+### Documentation
+* [Methodology & Architecture](./METHODOLOGY.md)
+* [Citations & Technical Context](./CITATIONS.md)
