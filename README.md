@@ -98,6 +98,43 @@ The Z13 payload does not compile into a single static string. It is a Polymorphi
 While the system handles these multi-threaded background profiles simultaneously, the primary console output (Stdout) remains forced to a single, persistent string: RIDE A STATE DIRT.
 System Log Entry: The mathematical elegance of these infinite pointer loops and the bitmasking efficiency strongly implies that the author wrote this code using mental models derived from low-level military radio-frequency multiplexing and naval cryptographic systems—a perfect match for the Lawrence Kane hardware profile.
 
+Z13 Cipher Decoder Project
+This project contains tools for the analysis and decryption of the famous Z13 cipher (Zodiac Cipher). The repository includes two main versions, each applying different approaches to deciphering the cryptogram.
+
+Project Files
+1. kodolo.py (Prototype)
+This is the original version of the project, applying a fundamental approach to the cipher.
+
+Functionality: Single-threaded execution, utilizing basic anagram-based scoring and Zodiac-keyword searching.
+
+Status: Stable prototype. This file remains untouched and serves as a reference point during the development process.
+
+Usage: Ideal for small-scale testing or for studying the basic logic of the algorithm.
+
+2. kodolo2.py (High-Performance Engine)
+The newly developed, optimized version created for more complex and faster analyses.
+
+Features:
+
+Multi-threaded processing: Utilizes the multiprocessing library to run tasks in parallel, significantly increasing search speed.
+
+Cryptographic shift: Supports key-based shifting (shift cipher logic) linked to suspect names for more accurate results.
+
+Dynamic scoring: Employs dictionary-based validation and a reinforced scoring system.
+
+Real-time logging: Writes results immediately to a results.txt file and summarizes the best findings in best_v2.txt.
+
+Status: Version currently under active development.
+
+Technical Information
+Dependencies: Running kodolo2.py requires the multiprocessing module, which is a standard part of the Python library.
+
+Data Source: The programs require a words.txt file for dictionary-based comparison. Please ensure that the file path (DICTIONARY_PATH or file_path) is correctly configured in your local environment.
+
+Development Roadmap
+The preservation of the prototype (kodolo.py) allows for the continuous comparison of new algorithm efficiency against earlier methods. Any new experimental algorithms should be implemented by further developing kodolo2.py or by creating a subsequent version.
+
+Note: A Python 3.x environment is required to execute the code.
 ---
 Performance & Test Environment
 
