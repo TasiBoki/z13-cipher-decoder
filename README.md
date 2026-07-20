@@ -97,7 +97,7 @@ Subroutine_Kane	SIGNALS / TIE	Naval Cryptography / Comm-Specs	Advanced Radio/Cry
 The Z13 payload does not compile into a single static string. It is a Polymorphic Cryptographic Function (Kaleidoscope Architecture). The compiler intentionally selected a 13-byte array that yields successful compilation and valid memory maps for all three primary profiles, acting as an intentional multi-threaded trap.
 While the system handles these multi-threaded background profiles simultaneously, the primary console output (Stdout) remains forced to a single, persistent string: RIDE A STATE DIRT.
 System Log Entry: The mathematical elegance of these infinite pointer loops and the bitmasking efficiency strongly implies that the author wrote this code using mental models derived from low-level military radio-frequency multiplexing and naval cryptographic systems—a perfect match for the Lawrence Kane hardware profile.
-
+---
 Z13 Cipher Decoder Project
 This project contains tools for the analysis and decryption of the famous Z13 cipher (Zodiac Cipher). The repository includes two main versions, each applying different approaches to deciphering the cryptogram.
 
